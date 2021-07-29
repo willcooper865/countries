@@ -9,6 +9,7 @@ li {
     display: flex;
     flex-direction: column;
     padding: 15px;
+    background-color: lightslategrey;
 } 
 img {
     width: 80px;

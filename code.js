@@ -17,7 +17,7 @@ const displayCountry = function(country) {
     li.append(card)
     countryList.append(li)
 
-    const countryName = document.createElement("h4")
+    const countryName = document.createElement("h3")
     countryName.innerHTML = country.name
     card.append(countryName)
 
