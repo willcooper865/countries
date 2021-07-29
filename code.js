@@ -9,7 +9,6 @@ countryDiv.classList.add("countryDiv")
 const countryList = document.createElement("ul")
 countryDiv.append(countryList)
 
-
 const displayCountry = function(country) {
     const li = document.createElement("li")
     const card = document.createElement("div")
@@ -42,10 +41,8 @@ const displayCountry = function(country) {
         <br/>
         Boardering Countries: ${country.borders}
     `
-
     infoDiv.innerHTML = info
     card.append(infoDiv)
-
 
     main.append(countryDiv)
     console.log(country)
@@ -84,4 +81,3 @@ const handleClick = function (event) {
 }
 
 button.addEventListener("click", handleClick)
-
