@@ -1,0 +1,12 @@
+body {
+    background-color: lightgrey;
+}
+li {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+img {
+    width: 80px;
+    height: 50px;
+}
